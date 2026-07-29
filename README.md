@@ -1,14 +1,12 @@
 # RL Lab 1 - Tic Tac Toe Environment
 
-M.Tech Data Science - Reinforcement Learning Lab
+Reinforcement Learning Lab
 Name: <Akula Jashwanth Kumar>
 Roll No: <BL.SC.P2DSC25003>
 
 ## What this project is
 
-This is Lab 1 for RL. The task was to build an RL **environment**
-(not train an agent) using tic tac toe as example, since that's what
-was used in class to explain the basic terms:
+This is Lab 1 for RL. The task was to build an RL **environment** using tic tac toe as example.
 
 - Agent
 - Environment
@@ -93,32 +91,3 @@ python main.py
 
 It'll print 3 games, showing each step (who played where, reward,
 whether game ended) plus a summary at the end of each game.
-
-## Sample output
-
-```
-Step 1 - Agent (X) played cell 4
-reward: 0  done: False  info: {'result': 'ongoing'}
-- | - | -
----------
-- | X | -
----------
-- | - | -
-...
-Game 1 finished
-rewards during game: [0, 0, 0, 0, 0, 0, 1]
-discounted return (gamma=0.9): 0.5314
-rough value of final board: 5
-result: win
-```
-
-(numbers/moves change a bit each run since opponent moves randomly)
-
-## Notes
-
-- `guess_state_value()` is NOT a real learned value function, I just
-  wrote a simple scoring rule to show what "value of a state" means.
-  Real value functions get learned through algorithms like
-  Q-learning which we'll probably do in a later lab.
-- Didn't add extra files since the assignment is only about building
-  the environment, not the agent/training part.
