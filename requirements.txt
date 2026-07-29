@@ -1,0 +1,14 @@
+# RL-Lab-1: Tic-Tac-Toe RL Environment
+#
+# This project intentionally uses ONLY the Python standard library
+# (random, typing) so that it runs anywhere with zero setup friction
+# and so the code stays focused on RL concepts rather than framework
+# details. No external packages are required.
+#
+# Minimum Python version: 3.8+ (uses type hints from `typing`)
+#
+# If you later extend this project (e.g. add Q-Learning, plotting, or
+# an OpenAI Gym/Gymnasium wrapper), you would add packages here, e.g.:
+# numpy>=1.24
+# gymnasium>=0.29
+# matplotlib>=3.7
